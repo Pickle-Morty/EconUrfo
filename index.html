@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экон урфо</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="header container">
+        <img src="./img/icon/бургер.svg" alt="burger icon" class="header__burger" id="header__burger">
+        <div>
+            <img src="./img/icon/лого (1).png" alt="logo decktop" class="header__logo-xl">
+            <img src="./img/icon/logoMobile.png" alt="logo mobile" class="header__logo-m">
+        </div>
+
+        <div class="header__search"><button><img src="./img/icon/searchIcon.svg" alt="search icon"></button><input
+                type="text" placeholder="Поиск товаров..">
+        </div>
+        <ul class="header__bar">
+            <li class="visible-m"><a href="#"><img src="./img/icon/phoneIcon.svg" alt="phone icon"></a></li>
+            <li class="hiden-xl"><a href="#"><img src="./img/icon/delivery.svg" alt="delivery icon"></a></li>
+            <li> <a href="#"><img src="./img/icon/userIcon.svg" alt="user icon"></a></li>
+            <li> <a href="#"><img src="./img/icon/shopping-bagIcon.svg" alt="shopping bag icon"></a></li>
+        </ul>
+    </header>
+    <div class="menu-mobile visible-m container">
+        <div class="row">
+            <img src="./img/icon/logoMobile.png" alt="mobile logo icon" class="logo">
+            <button class="btn-close" id="menu-close"><img src="./img/icon/closeIcon.svg" alt="close icon"></button>
+        </div>
+
+        <div class="menu__block collapse">
+            <div class="collapse__row collapsible" id="">
+                <div class="  "><img src="./img/icon/heatingIcon.svg" alt="heating icon"> Отопительное
+                    оборудование</div>
+                <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="arrow icon">
+            </div>
+            <div class="collapse__wrap active">
+                <ul class="menu__list-collapse ">
+                    <li><a href="#">Радиаторы отопления</a></li>
+                    <li><a href="#">Конвекторы отопления</a></li>
+                    <li><a href="#">Полотенцесушители</a></li>
+                    <li><a href="#">Арматура для радиаторов и конвектеров</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu__block collapse">
+            <div class="collapse__row collapsible" id="">
+                <div><img src="./img/icon/craneImg.svg" alt="crane icon"> Комплектация объектов
+                    сантехникой</div>
+                <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="arrow icon">
+            </div>
+            <div class="collapse__wrap">
+                
+            </div>
+        </div>
+
+        <div class="menu__block collapse">
+            <div class="collapse__row collapsible" id="">
+                <div class="  "><img src="./img/icon/hand-sanitizerIcon.svg" alt="icon"> Отопительное
+                    оборудование</div>
+                <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="icon">
+            </div>
+            <div class="collapse__wrap">
+                
+            </div>
+        </div>
+        <div class="menu__block collapse">
+            <div class="collapse__row collapsible" id="">
+                <div class="  "><img src="./img/icon/showerIcon.svg" alt="icon"> Отопительное
+                    оборудование</div>
+                <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="icon">
+            </div>
+            <div class="collapse__wrap">
+               
+            </div>
+        </div>
+        <ul class="menu-list">
+            <li class=""><a href="#">Наше производство</a></li>
+            <li class=""><a href="#">Готовые решения</a></li>
+            <li class=""><a href="#">О компании</a></li>
+            <li class=""><a href="#">Доставка и оплата</a></li>
+            <li class=""><a href="#">Сертификаты</a></li>
+            <li class=""><a href="#">Новости</a></li>
+        </ul>
+    </div>
+    <nav class="row-nav container">
+        <ul>
+            <li><a href="#"><img src="./img/icon/pointIcon.svg" alt="point icon">Екатеринбург</a></li>
+            <li><a href="#"><img src="./img/icon/phoneIcon.svg" alt="phone icon">+7 (495) 506-36-50</a></li>
+            <li><a href="#"><img src="./img/icon/mailIcon.svg" alt="mail icon">office@uconerfo.ru</a></li>
+            <li><a href="#"><img src="./img/icon/editIcon.svg" alt="edit icon">Заявка на расчет </a></li>
+            <li><a href="#"><img src="./img/icon/headsetIcon.svg" alt="headset icon">Контакты</a></li>
+        </ul>
+    </nav>
+    <section class="page">
+        <div class="container">
+            <div class="page__box">
+                <div class="page__title">Дозаторы и антисептики</div>
+                <p class="page__subtitle">
+                    Устанавливаются в общественных местах для предотвращения распространения
+                    вирусов микробов</p>
+            </div>
+            <img src="./img/page/image 129 (5).png" alt="refrigerator" class="page__img">
+            <button class="page__btn"><img src="./img/icon/dynymicArrowIcon.png" alt="icon">Подробнее</button>
+        </div>
+    </section>
+    <main class="main">
+        <nav class="breadcrumbs container">
+            <ul class="breadcrumbs__list" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li class="breadcrumbs__item" itemprop="itemListElement" itemscope
+                    itemtype="http://schema.org/ListItem">
+                    <a itemprop="item" href="#" class="breadcrumbs__link">
+                        Главная
+                    </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li class="breadcrumbs__item-active" itemprop="itemListElement" itemscope
+                    itemtype="http://schema.org/ListItem">
+                    <a itemprop="item" href="#" class="breadcrumbs__link-active ">
+                        Отопительное оборудование
+                    </a>
+                    <meta itemprop="position" content="2" />
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="title-section">Отопительное оборудование</div>
+            <p class="counter visible-l margin"><span class="bold">2394</span>товаров</p>
+        </div>
+
+        <div class="grid-main container">
+            <aside class="filter">
+                <div class="row">
+                    <div class="filter__title">Фильтры</div>
+                    <button class="filter__btn-reset hiden-l">Сбросить<span></span></button>
+                    <button class="filter__btn-close" id="filter-close"><img src="./img/icon/closeIcon.svg"
+                            alt="icon"></button>
+                </div>
+
+                <div class="collapse">
+                    <div class="collapse__row collapsible" id="">
+                        <div class="filter__subtitle"> Отопительное
+                            оборудование</div>
+                        <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="icon">
+                    </div>
+                    <div class="collapse__wrap active">
+                        <ul class="filter__list ">
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="hot-check-1" />
+                                <label for="hot-check-1">Радиаторы отопления</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="hot-check-2" />
+                                <label for="hot-check-2">Конвекторы отопления</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="hot-check-3" />
+                                <label for="hot-check-3">Полотенцесушители</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="hot-check-4" />
+                                <label for="hot-check-4">Арматура для радиаторов </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="collapse">
+                    <div class="collapse__row collapsible" id="">
+                        <div class="filter__subtitle"> Бренд</div>
+                        <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="icon">
+                    </div>
+                    <div class="collapse__wrap active">
+                        <ul class="filter__list">
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="brand-check-1" />
+                                <label for="brand-check-1">Purmo</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="brand-check-2" />
+                                <label for="brand-check-2">Irsap</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="brand-check-3" />
+                                <label for="brand-check-3">Terma</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="brand-check-4" />
+                                <label for="brand-check-4">Loten </label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="brand-check-4" />
+                                <label for="brand-check-4">Guardo </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="filter__price">
+                    <div class="filter__subtitle" id="">Цена</div>
+                    <div class="ion-range-slider ">
+                        <input type="hidden" id="kt_slider_3" />
+                    </div>
+                </div>
+                <div class="collapse">
+                    <div class="collapse__row collapsible" id="">
+                        <div class="filter__subtitle"> Количество секций</div>
+                        <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="icon">
+                    </div>
+                    <div class="collapse__wrap active">
+                        <ul class="filter__list">
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="section-check-1" />
+                                <label for="section-check-1">4</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="section-check-2" />
+                                <label for="section-check-2">6</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="section-check-3" />
+                                <label for="section-check-3">8</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="section-check-4" />
+                                <label for="section-check-4">12</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="collapse">
+                    <div class="collapse__row collapsible" id="">
+                        <div class="filter__subtitle"> Межосетевое расстояние</div>
+                        <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="icon">
+                    </div>
+                    <div class="collapse__wrap active">
+                        <ul class="filter__list">
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="space-check-1" />
+                                <label for="space-check-1">20 см</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="space-check-2" />
+                                <label for="space-check-2">35 см</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="space-check-3" />
+                                <label for="space-check-3">50 см</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="collapse">
+                    <div class="collapse__row collapsible" id="">
+                        <div class="filter__subtitle">Площадь отопления</div>
+                        <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="icon">
+                    </div>
+                    <div class="collapse__wrap active">
+                        <ul class="filter__list">
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="square-check-1" />
+                                <label for="square-check-1">Более 19 м² </label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="square-check-2" />
+                                <label for="square-check-2">Менее 8 м²</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="square-check-3" />
+                                <label for="square-check-3">от 10 до 14 м²</label>
+                            </li>
+                            <li class="collapse__item">
+                                <input class="checkbox" type="checkbox" id="square-check-4" />
+                                <label for="square-check-4">от 15 до 26 м² </label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapse">
+                    <div class="collapse__row collapsible" id="">
+                        <div class="filter__subtitle"> Цвет</div>
+                        <img class="collapse__img" src="./img/icon/arrowIcon.svg" alt="icon">
+                    </div>
+                    <div class="collapse__wrap active">
+                        <ul class="filter__list">
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-red" type="checkbox" id="color-check-1" />
+                                <label for="color-check-1">Красный</label>
+                            </li>
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-yellow" type="checkbox" id="color-check-2" />
+                                <label for="color-check-2">Желтый</label>
+                            </li>
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-green" type="checkbox" id="color-check-3" />
+                                <label for="color-check-3">Зеленый</label>
+                            </li>
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-blue" type="checkbox" id="color-check-4" />
+                                <label for="color-check-4">Синий</label>
+                            </li>
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-violet" type="checkbox" id="color-check-5" />
+                                <label for="color-check-5">Фиолетовый</label>
+                            </li>
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-pink" type="checkbox" id="color-check-6" />
+                                <label for="color-check-6">Розовый</label>
+                            </li>
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-beige" type="checkbox" id="color-check-7" />
+                                <label for="color-check-7">Бежевый</label>
+                            </li>
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-white" type="checkbox" id="color-check-8" />
+                                <label for="color-check-8">Белый</label>
+                            </li>
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-black" type="checkbox" id="color-check-9" />
+                                <label for="color-check-9">Черный</label>
+                            </li>
+                            <li class="collapse__item-color">
+                                <input class="checkbox-color color-grey" type="checkbox" id="color-check-10" />
+                                <label for="color-check-10">Серый</label>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="row visible-m flex">
+                    <button class="filter__btn"><img src="./img/icon/arrowsIcon.svg" alt="стрелка">Применить</button>
+                    <button class="filter__btn-reset">Сбросить<span></span></button>
+                </div>
+            </aside>
+            <section class="box-products">
+                <div class="panel row">
+                    <div class="">
+                        <button class="btn-filter visible-m" id="btn-filter"><img src="./img/icon/filterIcon.svg"
+                                alt="icon">Фильтры</button>
+                        <p class="counter hiden-l"><span class="bold">2394</span>товаров</p>
+                    </div>
+                    <div class="box-sort">
+                        <span>Цена: </span>
+                        <select class="panel__select" name="select">
+                            <option value="value1" selected>По возрастанию</option>
+                            <option value="value2">Значение 2</option>
+                            <option value="value3">Значение 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg1.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__wrapper">
+                        <div class="product__promotion"><img src="./img/icon/percentIcon.svg" alt="icon"> Акция</div>
+                        <img src="./img/product/productImg2.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg3.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg1.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg2.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg3.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg1.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product__wrapper">
+                        <div class="product__promotion"><img src="./img/icon/percentIcon.svg" alt="icon"> Акция</div>
+                        <img src="./img/product/productImg2.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product hiden-xl">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg3.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product hiden-xl">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg1.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product hiden-xl">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg2.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product hiden-xl">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg3.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product hiden-xl">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg1.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product hiden-xl">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg2.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                <div class="product hiden-xl">
+                    <div class="product__wrapper">
+                        <img src="./img/product/productImg3.png" alt="product image" class="product__img">
+                    </div>
+                    <div class="product__title">Биметаллический радиатор Royal Thermo Indigo Super </div>
+                    <div class="product__row">
+                        <span class="product__price">4 250</span>
+                        <button class="product__button"><img src="./img/icon/shopBasketIcon.svg" alt="icon"></button>
+                    </div>
+                </div>
+                
+                <div class="visible-m product__more">Показать еще</div>
+            </section>
+        </div>
+        <section class="info">
+            <div class="title-section">Длинный или короткий заголовок SEO текста</div>
+            <div class="info__block">
+                <p>Интернет-магазин автоматической водосберегающей сантехники и дизайн радиаторов
+                    отопления
+                    Сантехническое и отопительное оборудование - основные продукты интернет-магазина "Экон Урфо".
+                    На сайте urfoecon.ru, вы можете выбрать и купить автоматическую водосберегающую сантехнику и дизайн
+                    радиаторы отопления. На сайте urfoecon.ru, вы можете выбрать: смесители, душевые, смывные устройства
+                    для унитазов и писсуаров, а так же дополнительные товары: сушилки для рук, дозаторы мыла, фены для
+                    волос, держатели туалетной бумаги, ведра и другое.
+                </p>
+                <p> Преимущества автоматической водосберегающей сантехники — экономия денег и воды!
+                    Результат будет
+                    заметен с первого месяца установки. Обратитесь к нашим специалистам и узнайте вашу выгоду при
+                    использовании автоматической водосберегающей сантехники. Звоните или оставляйте заявку на расчет.
+                </p>
+            </div>
+            <div class="info__subtitile">Подзаголовок внутри текста</div>
+            <div class="info__block">
+                <p>
+                    На сайте urfoecon.ru, вы можете выбрать красивые современные модели радиаторов отопления Европейских
+                    и Российских производителей. Радиаторы представленные в каталоге,изготовлены из прочных материалов:
+                    сталь, алюминий и биметалл. Мы уверены в качестве нашей продукции и предоставляем гарантию до 25 лет
+                    на радиаторы отопления. В нашем ассортименте: водяные и электрические радиаторы, высокие, средние и
+                    низкие, узкие и широкие, трубчатые и панельные модели, стандартные белые, черные, бежевые и любые
+                    цвета по шкале RAL.</p>
+                <p> Обратитесь к нашим специалистам и подберите радиаторы, которые гармонично
+                    впишутся в ваш интерьер и
+                    будут эффективно обогревать ваш дом. Звоните или оставляйте заявку на расчет.</p>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer container">
+        <div class="row-footer">
+            <div class="col">
+                <div>
+                    <img class="footer__logo" src="./img/icon/лого (1).png" alt="logo" class="logo">
+                    <div class="footer__subtitle margin-b-14"><img src="./img/icon/handsetIcon.svg" alt="mail">+7 (495) 506-36-50
+                    </div>
+                    <ul class="footer__list margin-b-46">
+                        <li class="">
+                            Пн-Пт: с 08:00 до 19:00
+                        </li>
+                        <li class="">
+                            Сб-Вс: с 08:00 до 16:00
+                        </li>
+                    </ul>
+                    <div class="footer__subtitle magrin-footer"><img src="./img/icon/mailIcon.svg"
+                            alt="mail">office@uconerfo.ru</div>
+                    <div class="footer__subtitle">Мы в сети</div>
+                    <ul class="footer__list-row ">
+                        <li class="footer__social">
+                            <img src="./img/icon/vkIcon-grey.svg" alt="vk">
+                            ВКонтакте
+                        </li>
+                        <li class="footer__social">
+                            <img src="./img/icon/instagramIcon-grey.svg" alt="instagram">
+                            Instagram
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="footer__subtitle">
+                    Категории продукции
+                </div>
+                <ul class="footer__list">
+                    <li class="">
+                        Трубчатые радиаторы
+                    </li>
+                    <li class="">
+                        Панельные радиаторы
+
+                    </li>
+                    <li class="">
+                        Полотенцесушители
+
+                    </li>
+                    <li class="">
+                        Вертикальные радиаторы
+
+                    </li>
+                    <li class="">
+                        Дизайн радиаторы
+
+                    </li>
+                    <li class="">
+                        Внутрипольные конвекторы
+
+                    </li>
+                    <li class="">
+                        Конвекторы водяные
+
+                    </li>
+                    <li class="">
+                        Водосберегающая сантехника
+
+                    </li>
+                    <li class="">
+                        Теплый пол
+
+                    </li>
+                    <li class="">
+                        Чугунные дизайн радиаторы
+
+                    </li>
+                    <li class="">
+                        Арматура для радиаторов
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="footer__subtitle">
+                    Категории продукции
+                </div>
+                <ul class="footer__list">
+                    <li class="">
+                        Трубчатые радиаторы
+                    </li>
+                    <li class="">
+                        Панельные радиаторы
+
+                    </li>
+                    <li class="">
+                        Полотенцесушители
+
+                    </li>
+                    <li class="">
+                        Вертикальные радиаторы
+
+                    </li>
+                    <li class="">
+                        Дизайн радиаторы
+
+                    </li>
+                    <li class="">
+                        Внутрипольные конвекторы
+
+                    </li>
+                    <li class="">
+                        Конвекторы водяные
+
+                    </li>
+                    <li class="">
+                        Водосберегающая сантехника
+
+                    </li>
+                    <li class="">
+                        Теплый пол
+
+                    </li>
+                    <li class="">
+                        Чугунные дизайн радиаторы
+
+                    </li>
+                    <li class="">
+                        Арматура для радиаторов
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="footer__subtitle">
+                    Информация
+                </div>
+                <ul class="footer__list">
+                    <li class="">
+                        <a href="#">О компании</a>
+
+
+
+                    </li>
+                    <li class="">
+                        <a href="#">Готовые решения
+                        </a>
+
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            Наша продукция
+                        </a>
+
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            Цвета
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+
+                            Сертификаты
+                        </a>
+
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            Доставка и оплата
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#">
+                            Контакты
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row-footer padding-t-64">
+            <div class="col">Copyright © 2014 - 2020</div>
+            <div class="col">Политика конфиденциальности</div>
+            <div class="col">Обработка персональной информации</div>
+            <div class="col row">Разработано <div class="logo-developer"><img class="icon" src="./img/icon/companyDevName.svg" alt="logo"><img src="./img/icon/companyDevLogo.svg" alt="Request Design"></div> </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/ion.rangeSlider.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
